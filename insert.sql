@@ -17,8 +17,8 @@ INSERT INTO kursy(jezyk,poziom,ilosc_godz,cena) VALUES
 INSERT INTO grupy_jezykowe(godz_przer,data_rozp,egz_ustny,egz_pisemny_data,
 egz_pisemny_godz,prowadzacy_id,kursy_id) VALUES
 (3,'2019-03-01','2019-06-12','2019-06-10','12:00',1,1),--1 angielski
-(23,'2019-01-04','2019-05-06','2019-04-30','15:00',3,6),--2 włoski
-(2,'2018-10-27','2019-01-22','2019-02-01','11:00',4,2),--3 angielski
+(20,'2019-01-04','2019-05-06','2019-04-30','15:00',3,6),--2 włoski
+(30,'2018-10-27','2019-01-22','2019-02-01','11:00',4,2),--3 angielski
 (10,'2019-01-20','2019-05-20','2019-05-17','16:00',4,1)--4 angielski
 ;
 INSERT INTO grupy_jezykowe(godz_przer,data_rozp,prowadzacy_id,kursy_id) VALUES
