@@ -62,7 +62,7 @@ INSERT INTO przydzial(id_grupy,id_uczestnik) VALUES
 (6,2),(6,7),(6,13),(6,18),(6,19),
 (7,15),(7,16),(7,21)--
 ;
-
+--33
 INSERT INTO rozklad_godz(sala,godz_rozp,godz_zakon,dzien_tyg,grupa_id) VALUES
 (2,'14:00','15:00','wtorek',1),
 (1,'14:00','16:00','piątek',2),
@@ -73,4 +73,6 @@ INSERT INTO rozklad_godz(sala,godz_rozp,godz_zakon,dzien_tyg,grupa_id) VALUES
 (2,'13:00','15:00','piątek',6),
 (3,'14:00','15:00','środa',7)
 ;
+--8
+
 
