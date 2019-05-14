@@ -23,9 +23,11 @@ create TABLE grupy_jezykowe(
     egz_pisemny_godz TIME,
     prowadzacy_id int not null ,
     kursy_id int not null,
+
     CONSTRAINT prowadzacy_fk FOREIGN KEY(prowadzacy_id) REFERENCES prowadzacy(ID),
     CONSTRAINT kursy_fk FOREIGN KEY (kursy_id) REFERENCES kursy(ID)
-    ON UPDATE CASCADE ON DELETE CASCADE
+    ON UPDATE CASCADE ON DELETE CASCADE,
+    CONSTRAINT ch_date CHECK ((egz_ustny > data_rozp) AND (egz_pisemny_data > data_rozp))
 );
 create TABLE uczestnicy (
     ID serial PRIMARY KEY,
